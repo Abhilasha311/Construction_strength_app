@@ -62,7 +62,8 @@ def prediction(cement,slag,ash,water,superplastic,courseagg,fineagg,age):
 strength=""
 if st.button("Predict"):
     strength=prediction(cement,slag,ash,water,superplastic,courseagg,fineagg,age)
-    print("Strenth of your construction will be {} years with {} of accuracy".format(strength,r2score(y_test,y_pred)))
+    print("Strenth of your construction will be following years")
+    st.write(strength)
        
 
 
